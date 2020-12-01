@@ -10,12 +10,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v1
-      - name: Install Server dependecies
+      - name: Install Server dependencies
         uses: bahmutov/npm-install@v1
         with:
           working-directory: server
       
-      - name: Install Web dependecies
+      - name: Install Web dependencies
         uses: bahmutov/npm-install@v1
         with:
           working-directory: web
