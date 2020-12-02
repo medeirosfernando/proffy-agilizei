@@ -16,9 +16,9 @@ context('PageHeader component', () => {
         mount(
             <Router>
                 <PageHeader 
-                title= { title }
-                description= { description }
-            />
+                    title= { title }
+                    description= { description }
+                />
             </Router>
             ,
             {
