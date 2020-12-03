@@ -23,7 +23,7 @@ context('Classes endpoint', () => {
             }
         }).then((resClasses) => {
             expect(resClasses.status).to.eq(201)
-            expect(resClasses.duration).to.lt(50)
+            expect(resClasses.duration).to.lt(200)
             expect(resClasses.duration).to.gt(5)
             expect(resClasses.body[0]).to.have.property('class_id').an('number')
             expect(resClasses.body[0]).to.have.property('week_day').an('number')
