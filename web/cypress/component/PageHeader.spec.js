@@ -28,7 +28,6 @@ context('PageHeader component', () => {
         // Usando Find e Children
         cy.get('.page-header').as('header')
         cy.get('@header').find('strong').as('title')
-        // cy.get('@header').children('p').as('description')
 
         cy.get('p').as('description')
         

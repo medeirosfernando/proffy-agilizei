@@ -1,7 +1,6 @@
 /// <reference types="cypress" />
 
 import React from 'react'
-import PageHeader from '../../src/components/PageHeader';
 import Input from '../../src/components/Input'
 import { mount } from 'cypress-react-unit-test'
 import { BrowserRouter as Router } from 'react-router-dom'
@@ -15,12 +14,13 @@ context('Input component', () => {
         const input = 'name'
 
         mount(
-            <Router>
-                <PageHeader></PageHeader>                            
+            <Router> 
+                <form id="search-teachers">                      
                     <Input
                         label= { label }
                         input= { name }
-                    />                
+                    />
+                </form>                
             </Router>
             ,
             {

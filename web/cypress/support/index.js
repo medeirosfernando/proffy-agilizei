@@ -24,3 +24,7 @@ require('cypress-react-unit-test/support')
 import '@bahmutov/cy-api/support'
 
 import '@cypress/code-coverage/support'
+
+Cypress.on('uncaught:exception', (err, runnable) => {
+    return false
+})
