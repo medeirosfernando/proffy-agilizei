@@ -13,3 +13,5 @@
 
 *Pronto, agora é só acompanhar a aula* ⚡️
 # proffy-agilizei
+
+# Link do teste no Dashboard do Cypress: https://dashboard.cypress.io/projects/9kc1wv/runs/1/overview
